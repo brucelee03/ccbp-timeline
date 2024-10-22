@@ -1,0 +1,39 @@
+.timeline-view-container {
+  background-color: #ffffff;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 0 18px 0 18px;
+}
+.my-controls {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.main-heading {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 500;
+  color: #1e293b;
+  margin-top: 19px;
+  line-height: 2;
+}
+.academy-name {
+  font-size: 30px;
+  color: #2b237c;
+}
+@media screen and (max-width: 577px) {
+  .timeline-view-container {
+    padding: 0 8px 0 8px;
+  }
+  .main-heading {
+    font-size: 16px;
+  }
+  .academy-name {
+    font-size: 24px;
+  }
+}
